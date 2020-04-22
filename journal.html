@@ -1,0 +1,73 @@
+<html>
+<head>
+	<title>Journal</title>
+	<style>
+			a{
+				text-decoration:black;
+				display: inline-block;
+				padding: 8px 16px;
+			
+			}
+			a:hover{
+				background-color:rgb(214, 103, 103);
+				color: black;
+			
+			}
+			.back{
+				background-color:beige;
+				border-radius: 5px;
+				
+				
+				}
+			
+				.next{
+				background-color:beige;
+				border-radius: 5px;
+				}
+			
+			
+			
+				</style>
+
+	<link rel="stylesheet" type="text/css" href="style.css"
+</head>
+<script>
+function add(){
+var a,b,c;
+a=Number(document.getElementById("income").value);
+b=Number(document.getElementById("expenditure").value);
+c= a - b;
+document.getElementById("answer").value= c;
+}
+</script>
+<body>
+		<a href="to_do.html" class="back">&laquo;BACK</a>
+		<a href="page_end.php" class="next">NEXT&raquo;</a>
+	
+	<div class ="Event-title">
+		<h1>Journal</h1>
+	</div>
+	
+	<div class="contact-form">
+		<form id="contact-form" method="POST" action="dbh_journal_inc.php">
+		
+		 Date:<input name="date" type="Date" class="form-control" placeholder="" required> <br>
+		 Expenditure:<input name="expenditure"id="expenditure" type="number" class="form-control" placeholder="" required> <br>
+		Income:     <input name="income" id="income" type="number" class="form-control" placeholder="" required> <br>
+		    
+		
+		<button onclick="add()">profit</button>
+<input name="profit" type="number" id="answer" class="form-control" placeholder="Your saving" > <br>.
+		
+		
+		
+		
+		
+	<!!!<textarea name="message" class="form-control" placeholder="Message" row="4" <!!!</textarea><br>
+		
+		<input type="submit" class="form-control submit" value="submit">
+		
+		</form>
+	</div>
+</body>
+</html>
