@@ -1,0 +1,97 @@
+
+
+#main-wrapper{
+
+    width: 500px;
+    margin: 0 auto;
+    background:rgb(245, 241, 241);
+    padding:72px 80px;
+    border-radius:97px;
+    border:20px;
+    color:rgb(78, 62, 78);
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+   
+
+}
+#wrapper{
+    
+        width: 150 px;
+        margin-left:0px;
+        background:rgb(179, 73, 73);
+        padding:50px 16px 35px 85px;
+        border-radius:0px;
+        border:0px;
+        color:rgb(78, 62, 78);
+        font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+       
+     
+       
+    
+    }
+.myform{
+    width:450px;
+    border-radius:97px;
+    
+}
+
+.inputvalues{
+    width:420px;
+    margin:10px;
+    padding:5px;
+
+}
+#login_button{
+    background-color:rgb(101, 141, 250);
+    padding: 0px 5px 5px 6px;
+    color:rgb(41, 29, 29);
+    width:95%;
+    text-align:center;
+    font-size:18px;
+    font-weight:bold;
+    margin: 5px 10px;
+    font-family: cursive;
+    
+}
+#resister_button{
+    background-color:tomato;
+    padding: 0px 5px 9px 6px;
+    color:rgb(29, 23, 23);
+    width:95%;
+    text-align:center;
+    font-size:18px;
+    font-weight:bold;
+    margin:10px;
+    font-family: cursive;
+}
+#sign_button{
+    background-color:rgb(101, 141, 250);
+    padding: 0px 5px 5px 5  5px;
+    color:rgb(41, 29, 29);
+    width:95%;
+    text-align:center;
+    font-size:18px;
+    font-weight:bold;
+    margin: 5px 10px;
+    font-family: cursive;
+}
+#back_button{
+    background-color:rgb(247, 148, 35);
+    padding: 0px 5px 9px 6px;
+    color:rgb(29, 23, 23);
+    width:30%
+    text-align:left;
+    font-size:18px;
+    font-weight:bold;
+    margin:10px;
+    font-family:cursive;
+}
+#logout_button{
+    background-color:rgb(240, 72, 72);
+    padding: 0px 5px 5px 5  5px;
+    color:rgb(41, 29, 29);
+    width:95%;
+    text-align:center;
+    font-size:18px;
+    font-weight:bold;
+    margin: 5px 10px;
+    font-family: cursive;
